@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food List</title>
+    <link rel="stylesheet" href="../assest/css/bootstrap.min.css">
+    
+
+    <style>
+        .c{
+            color:white;
+        }
+        .fname{
+            font-family:cursive;
+            margin-left:20px;
+        }
+        img{
+            height:200px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+      <div class="row">
+        <nav class="navbar navbar-expand-lg  bg-dark d-flex justify-content-between">
+            <h1 class="navbar-brand" style="font-family:cursive; color:white; margin-left:20px;
+            font-size:30px;">Fast Yummy</h1>     
+
+             
+            <ul class="navbar-nav " type="none"style="margin-right:10px;">
+                <li class="nav-item  "><a href="./home.html" class="nav-link c"><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor" style="height:20px; width:20px; padding-bottom:2px;">
+                 <path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z" />
+               </svg> HOME</a></li>
+                <li class="nav-item "><a href="./aboutus.html" class="nav-link c ">ABOUT US</a></li>
+                <li class="nav-item"><a href="./fooditem.html" class="nav-link c text-danger"><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor" style="height:20px; width:20px;">
+                 <path d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z" />
+               </svg>HOW TO ORDER</a></li>
+                <li class="nav-item"><a href="./faq.html" class="nav-link c ">FAQ</a></li>
+                <li class="nav-item"><a href="./contactus.html" class="nav-link c">CONTACTS</a></li>
+                
+            </ul>
+
+        </nav>
+        </div>
+        <div class="row">
+            <div class="col" style="align-content:right;">
+                <input type="search" placeholder="foods.." style="margin:10px;">
+                <button class="btn bg-danger text-light" style="height:unset;">Search</button>
+            </div>
+          </div>
+          <div class="row text-center justify-content-centert">
+            <div class="col">
+                <h3 class="text-danger" style="font-family:cursive; margin:10px;">Break Fast Special</h3>
+            </div>
+         </div>
+        <div class="row my-2">
+            <div class="col">
+                <div class="card">
+                    <img src="../src/breakfast/boiledmanioc.jpg" alt="boiled manioc" class="card-img-top">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Bolied Manioc</h5>
+                    <p>1 Plate with Chili Relish</p>
+                    <p>Rs. 200</p>
+                    <button class="btn btn-outline-primary" onclick=text()>Order Now</button>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="../src/breakfast/coconutflat.jpg" alt="coconut flat bread" class="card-img-top">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Coconut Flat Bread</h5>
+                    <p>4 bread with Chili Relish</p>
+                    <p>Rs. 130</p>
+                    <button class="btn btn-outline-primary" onclick=text()>Order Now</button>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="../src/breakfast/herbalporridge.jpg" alt="herbal porridge" class="card-img-top">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Herbal Porridge</h5>
+                    <p>1 glass</p>
+                    <p>Rs. 100</p>
+                    <button class="btn btn-outline-primary" onclick=text()>Order Now</button>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="../src/breakfast/milkrice.jpg" alt="milk rice" class="card-img-top">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Milk Rice</h5>
+                    <p>1 Plate with Chili Relish</p>
+                    <p>Rs. 250</p>
+                    <button class="btn btn-outline-primary" onclick=text()>Order Now</button>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="../src/breakfast/stir-fried chickpeas.jpg" alt="stir-fried" class="card-img-top">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Stir-Fried-Chickpeas</h5>
+                    <p>1 Plate</p>
+                    <p>Rs. 350</p>
+                    <button class="btn btn-outline-primary" onclick=text()>Order Now</button>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col text-center justify-content-centert">
+                <h3 class="text-danger" style="font-family:cursive; margin:10px;">Lunch Special</h3>
+            </div>
+         </div>
+        <div class="row">
+            <div class="col">
+                <div class="card">
+                    <img src="../src/lunch/ambulthiyal.jpg" alt="fish ambulthiyal" class="card-img-top">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Fish Ambul Thiyal</h5>
+                    <p>1 plate(5 piece)</p>
+                    <p>Rs. 400</p>
+                    <button class="btn btn-outline-primary" onclick=text()>Order Now</button>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="../src/lunch/brinjalspickle.jpeg" alt="brinjals pickle" class="card-img-top">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Brinjals Pickle</h5>
+                    <p>1 Plate</p>
+                    <p>Rs. 300</p>
+                    <button class="btn btn-outline-primary" onclick=text()>Order Now</button>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="../src/lunch/dhal.jpeg" alt="dhal" class="card-img-top">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Dhal Curry</h5>
+                    <p>1 Plate</p>
+                    <p>Rs. 100</p>
+                    <button class="btn btn-outline-primary" onclick=text()>Order Now</button>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="../src/lunch/greenjackfruitcurry.jpeg" alt="green jack fruit" class="card-img-top">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Green Jack Fruit Curry</h5>
+                    <p>1 Plate</p>
+                    <p>Rs. 400</p>
+                    <button class="btn btn-outline-primary" onclick=text()>Order Now</button>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="../src/lunch/spicychickencurry.jpeg" alt="chicken curry" class="card-img-top">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Spicy Chicken Curry</h5>
+                    <p>1 Plate(5 pieces)</p>
+                    <p>Rs. 900</p>
+                    <button class="btn btn-outline-primary" onclick=text()>Order Now</button>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col text-center justify-content-centert">
+                <h3 class="text-danger" style="font-family:cursive; margin:10px;">Dinner Special</h3>
+            </div>
+         </div>
+        <div class="row">
+            <div class="col">
+                <div class="card">
+                    <img src="../src/dinner/grilledseafood.jpeg" alt="sea food" class="card-img-top">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Grilled Sea Food</h5>
+                    <p>1 Plate</p>
+                    <p>Rs. 850</p>
+                    <button class="btn btn-outline-primary" onclick=text()>Order Now</button>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="../src/dinner/hopper.jpeg" alt="hopper" class="card-img-top">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Hopper</h5>
+                    <p>5 Hoppers with Chili Relish</p>
+                    <p>Rs. 100</p>
+                    <button class="btn btn-outline-primary" onclick=text()>Order Now</button>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="../src/dinner/Indiappa.jpg" alt="indiappa" class="card-img-top">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Indiappa</h5>
+                    <p>1 Plate with Chicken Curry</p>
+                    <p>Rs. 200</p>
+                    <button class="btn btn-outline-primary" onclick=text()>Order Now</button>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="../src/dinner/kottu.jpg" alt="kottu" class="card-img-top">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Chicken Kottu</h5>
+                    <p>1 Plate</p>
+                    <p>Rs. 650</p>
+                    <button class="btn btn-outline-primary" onclick=text()>Order Now</button>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col text-center justify-content-centert">
+                <h3 class="text-danger" style="font-family:cursive; margin:10px;">Dessort</h3>
+            </div>
+         </div>
+        <div class="row">
+            <div class="col text-center justify-content-centert">
+                <div class="card">
+                    <img src="../src/dessort/choclatebiscuitpudding.jpg" alt="choclate pudding" class="card-img-top">
+                </div>
+                <div class="card-body">
+                    <p>1 Plate with Chili Relish</p>
+                    <p>Rs. 800</p>
+                    <button class="btn btn-outline-primary" onclick=text()>Order Now</button>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="../src/dessort/curd.jpeg" alt="curd" class="card-img-top">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Curd and Kithul</h5>
+                    <p>Rs. 280</p>
+                    <button class="btn btn-outline-primary" onclick=text()>Order Now</button>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="../src/dessort/milktofee.jpg" alt="milk tofee" class="card-img-top">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Milk Tofees</h5>
+                    <p>10 tofees</p>
+                    <p>Rs. 100</p>
+                    <button class="btn btn-outline-primary" onclick=text()>Order Now</button>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="../src/dessort/poltofee.jpeg" alt="pol tofee" class="card-img-top">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Pol Tofee</h5>
+                    <p>10 tofees</p>
+                    <p>Rs. 80</p>
+                    <button class="btn btn-outline-primary" onclick=text()>Order Now</button>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="../src/dessort/watalappan.jpeg" alt="watalappan" class="card-img-top">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Watalappan</h5>
+                    <p>1 Cup</p>
+                    <p>Rs. 300</p>
+                    <button class="btn btn-outline-primary" onclick=text()>Order Now</button>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col text-center justify-content-centert">
+                <h3 class="text-danger" style="font-family:cursive; margin:10px;">Indian Special</h3>
+            </div>
+         </div>
+        <div class="row">
+            <div class="col">
+                <div class="card">
+                    <img src="../src/indian/biriyani.jpeg" alt="biriyani" class="card-img-top">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Indian Special Biriyani</h5>
+                    <p>1 plate</p>
+                    <p>Rs. 900</p>
+                    <button class="btn btn-outline-primary" onclick=text()>Order Now</button>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="../src/indian/chappati.jpeg" alt="chappati" class="card-img-top">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Chappati</h5>
+                    <p>4 Chappati</p>
+                    <p>Rs. 200</p>
+                    <button class="btn btn-outline-primary" onclick=text()>Order Now</button>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="../src/indian/dosa.jpeg" alt="dosa" class="card-img-top">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Dosa</h5>
+                    <p>1 Dosa</p>
+                    <p>Rs. 250</p>
+                    <button class="btn btn-outline-primary" onclick=text()>Order Now</button>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="../src/indian/itli.jpeg" alt="itli" class="card-img-top">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Itli</h5>
+                    <p>5 Itli</p>
+                    <p>Rs. 300</p>
+                    <button class="btn btn-outline-primary" onclick=text()>Order Now</button>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="../src/indian/masaldosa.jpeg" alt="masal dosa" class="card-img-top">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Indian Special Masal Dosa</h5>
+                    <p>1 Dosa</p>
+                    <p>Rs. 350</p>
+                    <button class="btn btn-outline-primary" onclick=text()>Order Now</button>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="../src/indian/samosa.jpeg" alt="samosa" class="card-img-top">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Samosa</h5>
+                    <p>3 Samosa</p>
+                    <p>Rs. 350</p>
+                    <button class="btn btn-outline-primary" onclick=text()>Order Now</button>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col text-center justify-content-centert">
+                <h3 class="text-danger" style="font-family:cursive; margin:10px;">Drinks</h3>
+            </div>
+         </div>
+        <div class="row">
+            <div class="col">
+                <div class="card">
+                    <img src="../src/drinks/applejuice.jpeg" alt="apple juice" class="card-img-top">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Apple Juice</h5>
+                    <p>Rs. 450</p>
+                    <button class="btn btn-outline-primary" onclick=text()>Order Now</button>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="../src//drinks/chocalateshake.jpeg" alt="chocalate shake" class="card-img-top">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Chocalate Shake</h5>
+                    <p>Rs. 480</p>
+                    <button class="btn btn-outline-primary" onclick=text()>Order Now</button>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="../src/drinks/mangojuice.jpeg" alt="mango juice" class="card-img-top">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Mango Juice</h5>
+                    <p>Rs. 380</p>
+                    <button class="btn btn-outline-primary" onclick=text()>Order Now</button>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="../src/drinks/orangejuice.jpeg" alt="orange juice" class="card-img-top">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Orange Juice</h5>
+                    <p>Rs. 460</p>
+                    <button class="btn btn-outline-primary" onclick=text()>Order Now</button>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="../src/drinks/pineapplejuice.jpeg" alt="pineaplle juice" class="card-img-top">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Pineapple Juice</h5>
+                    <p>Rs. 270</p>
+                    <button class="btn btn-outline-primary" onclick=text()>Order Now</button>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="../src/drinks/strawberryjuice.jpeg" alt="strawberry juice" class="card-img-top">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Strawberry Juice</h5>
+                    <p>Rs. 320</p>
+                    <button class="btn btn-outline-primary" onclick=text()>Order Now</button>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col bg-dark text-light text-center" style="padding-bottom:10px;">
+                <br>
+                 &copy;2021|Fast Yummy
+            </div>
+        </div>
+    </div>
+    <script>
+        function text(){
+            window.location="orderdetails.html"
+        }
+    </script>
+
+<script src="../assest/js/jquery.min.js"></script>
+<script src="../assest/js/bootstrap.min.js"></script>
+    
+</body>
+</html>

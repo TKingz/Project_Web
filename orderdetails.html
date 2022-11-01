@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order</title>
+    <link rel="stylesheet" href="file:///C:/Users/FATHIMA%20HUMEINA/Desktop/boostrap/css/bootstrap.min.css">
+    <script src="file:///C:/Users/FATHIMA%20HUMEINA/Desktop/bootstrap/assest/js/jquery.min.js"></script>
+    <script src="file:///C:/Users/FATHIMA%20HUMEINA/Desktop/boostrap/js/bootstrap.min.js"></script>
+</head>
+<style>
+    input[type=text]{
+            width:300px;
+            margin:5px;
+    }
+    button{
+        width:300px;
+
+    }
+    select{
+        margin:5px;
+    }
+</style>
+<body>
+    <div class="container bg-light my-4">
+        <div class="row">
+          <div class="col">
+              <br><center><h3 style="font-family:cursive;">Fast Yummy</h3></center><br><br>
+          </div>
+        </div>
+        <div class="row">
+           <div class="col-sm-6 mx-auto">
+               <div class="card">
+                   <div class="card-body">
+                    <center>
+                        <form>
+                            <table>
+                                <tr>
+                                    <td>Name:</td>
+                                    <td><input type="text"></td>
+                                </tr>
+                                <tr>
+                                   <td>Address:</td>
+                                   <td><input type="text" placeholder="No"></td>
+                                </tr>
+                                <tr>
+                                    <td>Street:</td>
+                                    <td><input type="text" placeholder="Street..."></td>
+                                </tr>
+                                <tr>
+                                   <td>District</td>
+                                   <td><select>
+                                       <option>Jaffna</option>
+                                       <option>Kilinochchi</option>
+                                       <option>Mannar</option>
+                                       <option>Mulativ</option>
+                                       <option>Vavuniya</option>
+                                       <option>Puttalam</option>
+                                       <option>Kurunegala</option>
+                                       <option>Gampaha</option>
+                                       <option>Colombo</option>
+                                       <option>Anuradhapura</option>
+                                       <option>Polonnaruwa</option>
+                                       <option>Matale</option>
+                                       <option>Kandy</option>
+                                       <option>Nuweraliya</option>
+                                       <option>Kegalla</option>
+                                       <option>Ratnapura</option>
+                                       <option>Trincomalee</option>
+                                       <option>Batticaloa</option>
+                                       <option>Ampara</option>
+                                       <option>Badulla</option>
+                                       <option>Monaragala</option>
+                                       <option>Hambntota</option>
+                                       <option>Matara</option>
+                                       <option>Galle</option>
+                                   </select></td>
+                               </tr>
+                               <tr>
+                                   <td>Province</td>
+                                   <td>
+                                       <select>
+                                           <option>Northern</option>
+                                           <option>North Western</option>
+                                           <option>Western</option>
+                                           <option>North Central</option>
+                                           <option>Central</option>
+                                           <option>Sabaragamuwa</option>
+                                           <option>Eastern</option>
+                                           <option>Uva</option>
+                                           <option>Southern</option>
+                                       </select>
+                                   </td>
+                               </tr>
+                               <tr>
+                                   <td>Quantity</td>
+                                   <td><input type="text" style="width:40px;"></td>
+                               </tr>
+                               <tr>
+                                  <td>Phone:</td>
+                                  <td><input type="text" maxlength="10"></td>
+                               </tr>
+                               <tr>
+                                   <td>Email:</td>
+                                   <td><input type="text"></td>
+                               </tr>
+                            </table>
+                            <br><p>Payment Method</p>
+                            
+                            <input type="radio" name="payment" value="payment"><b> Cash On Delivery</b>
+                            <input type="radio" name="payment" value="payment"><b> Add Card</b>
+                            <br>
+                            <p>Deliverd within 48 hours</p>
+                            <button class="btn bg-success text-white">Add Card</button>
+                            <br><br>
+                            <button class="btn bg-danger text-white">Proceed</button>
+       
+                        </form>
+                    </center>
+                   </div>
+               </div>
+           </div>  
+        </div>
+    </div>
+</body>
+</html>
